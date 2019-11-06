@@ -9,14 +9,14 @@ const Box = props => {
   for (let i = 1; i <= props.n; ++i) {
     box.push(<div>{props.children}</div>);
   }
-  return <div className="Stars">{box}</div>;
+  return <div className="box">{box}</div>;
 };
 
 function App() {
   return (
     <div className="App">
-      <Box n={10}>
-        <Stars val={2} />
+      <Box n={50}>
+        <Stars val={3} />
       </Box>
     </div>
   );

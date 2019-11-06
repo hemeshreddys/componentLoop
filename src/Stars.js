@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 const AnimComponent = styled.div`
-  border: 1px solid red;
   padding: 10px;
   margin: 10px;
+  background-color: white;
 `;
 
 const Stars = props => {

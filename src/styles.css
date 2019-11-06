@@ -3,5 +3,13 @@
   text-align: center;
 }
 .Stars {
-  border: 2px solid grey;
+  border: 1px solid grey;
+  width: 100px;
+  margin: 10px;
+  background-color: aquamarine;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 232, 127);
 }
