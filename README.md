@@ -1,2 +1,0 @@
-# componentLoop
-Created with CodeSandbox

@@ -1,0 +1,26 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Stars from "./Stars";
+
+import "./styles.css";
+
+const Box = props => {
+  let box = [];
+  for (let i = 1; i <= props.n; ++i) {
+    box.push(<div>{props.children}</div>);
+  }
+  return <div className="Stars">{box}</div>;
+};
+
+function App() {
+  return (
+    <div className="App">
+      <Box n={10}>
+        <Stars val={2} />
+      </Box>
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
